@@ -12,8 +12,8 @@ void main() {
 	float ya = 0;
 	float yb = 0;
 
-	//int grado = 0;
-	//int contador = 0;
+	int grado = 0;
+	int contador = 0;
 
 	//Posible añadido con nuevas funciones para añadir un grado de error
 
@@ -24,9 +24,9 @@ void main() {
 	scanf_s("%f", &a);
 	scanf_s("%f", &b);
 
-	//printf("Introduce un grado de error (2^n)\n");
+	printf("Introduce un grado de error (2^n)\n");
 
-	//scanf_s("%d", &error);
+	scanf_s("%d", &grado);
 
 	x = a;
 	ya = x*x*x -x*x - x + 5;
@@ -50,6 +50,8 @@ void main() {
 	}
 
 
+	for(contador<grado;contador++){
+		
 		printf("Los valores son: a = %f || b = %f\n", a, b);
 
 		P = (a + b) / 2;
@@ -74,7 +76,8 @@ void main() {
 		else {
 			a = P;
 		}
-
+	}
+	
 	printf("El punto medio es %f\nLos nuevos valores son: %f y %f\nError aproximado de: |%d|\n", P, a , b, error);
 
 
