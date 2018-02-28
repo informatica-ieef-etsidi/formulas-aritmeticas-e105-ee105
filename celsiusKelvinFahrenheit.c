@@ -7,7 +7,7 @@ void main ()
 	
 	scanf("%2.f",&celsius);
 	
-	fahrenheit=celsius+32;
+	fahrenheit=celsius*1.8+32;
 	kelvin=celsius+273;
 	
 	printf("La temperatura %2.f en grados celsius a fahrenheit es %2.f",celsius,fahrenheit);
