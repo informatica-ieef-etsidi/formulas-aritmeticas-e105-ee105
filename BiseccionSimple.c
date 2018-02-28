@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-float a = 0;
-float b = 0;
-int error = 0;
-float P;
+
 
 void main() {
+	float a = 0;
+	float b = 0;
+	int error = 0;
+	float P;
 	float x = 0;
 	float y = 0;
 	float ya = 0;
@@ -14,7 +15,7 @@ void main() {
 	//int grado = 0;
 	//int contador = 0;
 
-	//Posible añadido con nuevas funciones para añadir un grado de error
+	//Posible aÃ±adido con nuevas funciones para aÃ±adir un grado de error
 
 	printf("La funcion es:  x^3 -x^2 - x + 5\n");
 
@@ -35,7 +36,7 @@ void main() {
 
 	
 
-	if (ya * yb < 0) {
+	if (ya * yb > 0) {
 		printf("Los valores introducidos no son adecuados, introduzca dos valores validos por favor:\n");
 
 		scanf_s("%f", &a);
