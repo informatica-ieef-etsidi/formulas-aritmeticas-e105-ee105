@@ -1,3 +1,5 @@
+//Desarrollador: Paula Arellano
+//El programa permite calcular cual será el precio final de un producto que está en rebajas a partir de su precio inicial y el descuento
 #include<stdio.h>
 void main() {
 	//ZONA DE DECLARACIÓN DE VARIABLES
